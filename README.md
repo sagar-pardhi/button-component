@@ -1,27 +1,87 @@
-# React + TypeScript + Vite
+<!-- Please update value in the {}  -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Button Component</h1>
 
-Currently, two official plugins are available:
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
+  <h3>
+    <a href="https://button-component-eta.vercel.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/sagar-pardhi/button-component">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-## Expanding the ESLint configuration
+<!-- TABLE OF CONTENTS -->
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Table of Contents
 
-- Configure the top-level `parserOptions` property like this:
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+<!-- OVERVIEW -->
+
+## Overview
+
+![screenshot](https://i.imgur.com/VSfkeaY.png)
+
+- Demo here - [demo](https://button-component-eta.vercel.app/)
+- The project was fun to build a reusable button component
+- Learned about how to build type-safe UI component using [cva](https://cva.style/docs) and [tailwindcss](https://tailwindcss.com/).
+
+### Built With
+
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind](https://tailwindcss.com/)
+
+## Features
+
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+
+## How To Use
+
+<!-- This is an example, please update according to your application -->
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/sagar-pardhi/button-component
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Acknowledgements
+
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+
+- [cva](https://cva.style/docs)
+- [clsx](https://github.com/lukeed/clsx)
+- [tailwind-merge](https://github.com/dcastil/tailwind-merge)
+
+## Contact
+
+- GitHub [@LoneDeveloper](https://{github.com/sagar-pardhi})
