@@ -1,6 +1,6 @@
-import cartIconLight from "./assets/shopping-cart-light.png";
+import addShoppinCart from "@/assets/outline_add_shopping_cart_white_24dp.png";
 
-import { Button } from "./components";
+import { Button } from "@/components";
 
 export const App = () => {
   return (
@@ -68,14 +68,14 @@ export const App = () => {
           <div className="flex gap-x-10">
             <div className="flex flex-col gap-y-2">
               <p>{"<Button startIcon={cartIcon} />"}</p>
-              <Button intent="primary" startIcon={cartIconLight}>
+              <Button intent="primary" startIcon={addShoppinCart}>
                 Default
               </Button>
             </div>
 
             <div className="flex flex-col gap-y-2">
               <p>{"<Button endIcon={cartIcon} />"}</p>
-              <Button intent="primary" endIcon={cartIconLight}>
+              <Button intent="primary" endIcon={addShoppinCart}>
                 Default
               </Button>
             </div>
