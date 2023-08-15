@@ -71,7 +71,7 @@ $ git clone https://github.com/sagar-pardhi/button-component
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run dev
 ```
 
 ## Acknowledgements
